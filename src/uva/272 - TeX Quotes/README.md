@@ -10,12 +10,16 @@ just “quote”). Be careful not to confuse the left-single-quote ` with the �
 the user type two left-single-quotes `` to create a left-double-quote “ and two right-single-quotes ''
 to create a right-double-quote ”. Most typists, however, are accustomed to delimiting their quotations
 with the un-oriented double-quote ".
+
 If the source contained
 "To be or not to be," quoth the bard, "that is the question."
+
 then the typeset document produced by TEX would not contain the desired form:
 “To be or not to be,” quoth the bard, “that is the question.”
+
 In order to produce the desired form, the source file must contain the sequence:
 ``To be or not to be,'' quoth the bard, ``that is the question.''
+
 You are to write a program which converts text containing double-quote (") characters into text
 that is identical except that double-quotes have been replaced by the two-character sequences required
 by TEX for delimiting quotations with oriented double-quotes. The double-quote (") characters should
