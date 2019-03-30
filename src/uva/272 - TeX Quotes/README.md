@@ -1,3 +1,6 @@
+# 272 TEX Quotes
+---
+
 https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=208
 
 TEX is a typesetting language developed by Donald Knuth. It takes source text together with a few
@@ -27,22 +30,22 @@ be replaced appropriately by either `` if the " opens a quotation and by '' if t
 Notice that the question of nested quotations does not arise: The first " must be replaced by ``, the
 next by '', the next by ``, the next by '', the next by ``, the next by '', and so on.
 
-# Input
+## Input
 Input will consist of several lines of text containing an even number of double-quote (") characters.
 Input is ended with an end-of-file character.
 
-# Output
+## Output
 The text must be output exactly as it was input except that:
 • the first " in each pair is replaced by two ` characters: `` and
 • the second " in each pair is replaced by two ' characters: ''.
 
-# Sample Input
+## Sample Input
 "To be or not to be," quoth the Bard, "that
 is the question".
 The programming contestant replied: "I must disagree.
 To `C' or not to `C', that is The Question!"
 
-# Sample Output
+## Sample Output
 ``To be or not to be,'' quoth the Bard, ``that
 is the question''.
 The programming contestant replied: ``I must disagree.
